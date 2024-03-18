@@ -1,0 +1,13 @@
+
+
+{
+    "name": "John Doe",
+    "age": 20,
+    "email": "js@gmail.com",
+    "isAvailable": true,
+    "hobbies": ["reading", "coding", "cooking", "playing"],
+    "address": {
+        "city": "Cape Town",
+        "province": "East cap"
+    }
+}

@@ -1,0 +1,123 @@
+/* -------------------------------------------------- */
+/* h1, h2, h3, h4, h5, li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+    box-shadow: 0.5px 0.5px 2px 2px #ccc;
+    background-color: rgb(130, 240, 240);
+}
+
+li {
+    max-width: 50px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.text {
+    margin-left: 15px;
+} */
+
+/*-----------------------------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.box {
+    max-width: 600PX;
+    margin: 20PX;
+    padding: 20PX;
+    border: 1PX solid purple;
+}
+
+.special {
+    color: teal;
+    font-style: italic;
+}
+
+strong {
+    color: brown;
+}
+
+.new_class {
+   text-decoration: line-through;
+   color: crimson;
+   background-color: bisque;
+}
+
+.btn-1 {
+    width: 100px;
+    height: 50px;
+    padding: auto;
+    margin: 2px;
+    text-align: center;
+    border-radius: 20rem;
+    background-color: aquamarine;
+}
+
+.btn-1:hover, .npt-1:hover {
+    background-color: gold;
+    height: 55px;
+    width: 105px;
+    color: #d413cb;
+    font-size: large;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.npt, .npt-1 {
+    height: 50px;
+    border-radius: 25px;
+    padding: auto;
+    text-align: center;
+    border: 1px solid rgb(82, 1, 61);
+    background-color: rgb(34, 41, 49);
+    color: bisque;
+}
+
+.npt-1 {
+    width: 75px;
+}
+
+
+.lime {
+    color: lime;
+}
+
+.brown {
+    color: brown;
+}
+
+.teal {
+    color: teal;
+}
+
+.gold {
+    color: gold;
+}
+
+.green {
+    color: green;
+}
+
+.aqua {
+    color: aqua;
+}
+
+
+
+
+
+
+
