@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: quando, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1b1b1b;
+}
+
+h1 {
+    color: rgb(231, 183, 60);
+}
+
+
+span {
+    color: aqua;
+}
+
+
+button {
+    margin-top: 4rem;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    font-family: quando, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(202, 243, 231, 0.788);
+    box-shadow: 1px 2px 10px 2px rgb(133, 36, 57);
+}
+
+button:active {
+    transform: scale(0.98);
+}

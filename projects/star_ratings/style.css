@@ -1,0 +1,41 @@
+
+body {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a1da8748
+}
+
+#ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid rgb(196, 134, 192);
+    padding: 1rem;
+    width: 160px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    background-color: rgb(252, 232, 209);
+    border-radius: 1rem;
+}
+ 
+
+.empty::before {
+    content: "🤍";
+    cursor: pointer;
+}
+
+.filled::before {
+    content: "💛";
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
